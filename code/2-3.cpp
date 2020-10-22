@@ -30,7 +30,6 @@ int main(){
         while(1){
             n++;
             if(n==N){n=0;}
-            //printf("arrived station %d\n",n);
             int e=pf[n].empty();
             while(!truck.empty()){//卸货
                 if(truck.top()==n+1){
@@ -49,7 +48,6 @@ int main(){
             while(truck.size()<S){//装货
                 if(pf[n].empty()){break;}
                 truck.push(pf[n].front());
-                //printf("in %d\n",pf[n].front());
                 pf[n].pop();
                 time++;
             }
