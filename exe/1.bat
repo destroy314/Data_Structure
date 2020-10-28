@@ -1,3 +1,3 @@
 :start
-2-5.exe
+test.exe
 goto start

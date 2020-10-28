@@ -39,11 +39,6 @@ int main()
 /* PRESET CODE END - NEVER TOUCH CODE ABOVE */  
 
 #include <math.h>
-int check(NODE *a,NODE *b){
-    for(int i=0;i<5;i++){
-        ;
-    }
-}
 void change(int n,int m,NODE *head){
     NODE *ex=(NODE*)malloc(sizeof(NODE));
     ex->data=-1;
